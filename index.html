@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Dice roller</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <div id="container">
+        <h1 id="text">Dice Roller</h1>
+        <label>Number of dice:</label>
+        <input type="number" value="1" min="1" id="numOfDice">
+        <button onclick="rollDice()">Roll dice</button><br><br>
+        <span id="boxCon">
+            <label for="box">Result:</label>
+            <input type="checkbox" id="box">
+        </span>
+        <div id="diceResult"></div>
+        <div id="diceImages"></div>
+
+
+
+    </div>
+
+
+
+    <script src='main.js'></script>
+</body>
+</html>

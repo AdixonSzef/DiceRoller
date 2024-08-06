@@ -1,0 +1,79 @@
+#text{
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+body{
+    background-color: rgb(80, 131, 131);
+}
+
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+#box{
+    margin-bottom: 40px;
+    margin-left: 0px;
+    width: 50px;
+    font-size: 2em;
+}
+
+label{
+    margin: 0px;
+}
+
+#boxCon{
+    flex-wrap: wrap;
+    background-color: rgb(224, 69, 7);
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+button{
+    font-size: 1.4em;
+    padding: 8px 12px;
+    border-radius: 16px;
+    border: none;
+    background-color: hsl(216, 98%, 60%);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(216, 98%, 50%);
+}
+
+
+button:active{
+    background-color: hsl(216, 98%, 70%);
+}
+
+input{
+    font-size: 1.6rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#diceResult{
+    margin: 25px;
+    font-weight: bold;
+}
+
+#diceImages img{
+    width: 150px;
+    margin: 5px;
+}
+
